@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+sup {
+  top: -.4em;
+}
+
+.pricing-container {
+  width: 210px;
+  float:left;
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin-left: 9px;
+  bottom: 0;
+}
+.pricing-container .header {
+  background: #2F2F2F;
+  color: white;
+  padding: 25px;
+  font-size: 25px;
+  font-weight: 300;
+  border-radius: 5px 5px 0 0;
+}
+.pricing-container .price {
+  background: #66D2AC;
+  background: linear-gradient(10deg, #93da9f 30%, #66d2ac 80%);
+  color: white;
+  padding: 10px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4);
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  font-size: 1.3em;
+}
+
+.pricing-container .price .figure {
+  font-weight: 800;
+  font-size: 1.2em;
+  margin: 0 2px;
+}
+.pricing-container .price .cent {
+  text-decoration: underline;
+}
+.pricing-container .price .frequency {
+  color: #fff;
+  text-shadow: none;
+}
+.pricing-container .price:hover .details {
+  height: 20px;
+}
+.pricing-container .price .details {
+  color: #fff;
+  font-size: .6em;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  transition: all 400ms ease;
+}
+.pricing-container .itemsWrapper {
+  border: 1px solid #E6E6E6;
+  border-top: none;
+  border-radius: 0 0 2px 2px;
+  background: white;
+  box-shadow: inset 14px 0 white, inset 15px 0 #f2f2f2, inset -14px 0 white, inset -15px 0 #f2f2f2;
+}
+.pricing-container .itemsWrapper .items {
+  list-style: none;
+  padding: 15px;
+  margin: 0;
+}
+.pricing-container .itemsWrapper .item {
+  padding: 7px;
+  text-transform: capitalize;
+}
